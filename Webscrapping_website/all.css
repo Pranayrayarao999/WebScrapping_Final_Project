@@ -1,0 +1,212 @@
+header {
+    background-image: url("./bg_images/3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-item {
+
+    margin-right: 15px;
+}
+
+.text-white {
+    color: white;
+}
+
+h1,
+h3 {
+    color: white;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.d-flex {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.card-conatiner {
+    display: flex;
+}
+
+.cards-space {
+    margin: auto;
+}
+
+.card-body {
+    color: rgb(205, 90, 126);
+
+}
+
+a {
+    color: rgb(218, 15, 32);
+    text-decoration: none;
+}
+
+/* @media screen and (min-width:375px) and (max-width:667px) {
+
+    .card-conatiner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card {
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:667px) {
+
+    .img-card {
+        width: 100%;
+        margin-top: 10px;
+    }
+} */
+
+/* form */
+.form-container {
+    max-width: 400px;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-container form .form-group {
+    margin-bottom: 20px;
+}
+
+.form-container form label {
+    font-weight: bold;
+}
+
+.form-container form input[type="text"],
+.form-container form input[type="email"],
+.form-container form input[type="password"] {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.form-container form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-container form button:hover {
+    background-color: #0056b3;
+}
+
+/* contact-us */
+.navbar .contact-us,
+.navbar .contact-us:focus {
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #fff;
+    border: 2px solid #47b2e4;
+    line-height: 3.0;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.navbar .contact-us:hover,
+.navbar .contact-us:focus:hover {
+    color: #fff;
+    background: #31a9e1;
+}
+
+/* accordian */
+.container-accordion {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.faq {
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.accordion-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    text-align: left;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+}
+
+.accordion-button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.accordion-button::after {
+    content: '\f067';
+    /* Unicode for plus icon */
+    font-family: 'Font Awesome 6 Free';
+    /* Font Awesome font family */
+    position: absolute;
+    right: 20px;
+    transition: transform 0.3s;
+}
+
+.accordion-button.collapsed::after {
+    content: '\f068';
+    /* Unicode for minus icon */
+    transform: rotate(180deg);
+}
+
+.accordion-body {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.about-us, .solutions, .card-text{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.faq, .accordion-header, .accordion-body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img-wrap{
+    max-width: 100%;
+    height: auto;
+}
+
